@@ -1,0 +1,18 @@
+.custom-button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: Futura, sans-serif;
+    font-size: 20px;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+    margin: 5px;
+}
+.custom-button:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+.custom-button:active {
+    background-color: #d0d0d0;
+    box-shadow: inset 0px 2px 5px rgba(0,0,0,0.2);
+}

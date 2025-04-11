@@ -1,0 +1,12 @@
+@page {
+    size: A4;
+    margin: 10mm;
+}
+
+@media print {
+    body {
+        width: 210mm;
+        height: 297mm;
+    }
+    /* Eventuelt juster andre elementer for utskrift her */
+}

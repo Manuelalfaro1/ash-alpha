@@ -1,0 +1,11 @@
+/* Skjul scrollbars i Chrome, Safari og Opera */
+::-webkit-scrollbar {
+    width: 0px;  /* Setter bredden til 0 for å skjule */
+    background-color: transparent;  /* Gjør bakgrunnen gjennomsiktig */
+}
+
+/* For IE, Edge og Firefox */
+body {
+    -ms-overflow-style: none;  /* IE og Edge */
+    scrollbar-width: none;  /* Firefox */
+}
